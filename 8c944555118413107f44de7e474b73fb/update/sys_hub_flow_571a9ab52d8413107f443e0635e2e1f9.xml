@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>cap_51_notify_on_dangerous_temperature</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Weather Data Record","reference":"x_cdltd_capstone_0_weather_data","reference_display":"Weather Data","type":"reference","base_type":"reference","usedInstances":{"75f1aa38-322f-4457-81d0-fcaca4be251a":["record"]},"attributes":{}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>CAP 5.1 Notify on Dangerous Temperature</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 07:06:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>571a9ab52d8413107f443e0635e2e1f9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>CAP 5.1 Notify on Dangerous Temperature</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Capstone Project" source="x_cdltd_capstone_0">8c944555118413107f44de7e474b73fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Capstone Project">8c944555118413107f44de7e474b73fb</sys_scope>
+        <sys_update_name>sys_hub_flow_571a9ab52d8413107f443e0635e2e1f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 07:13:28</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>72cb96792d8413107f443e0635e2e155</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=571a9ab52d8413107f443e0635e2e1f9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=571a9ab52d8413107f443e0635e2e1f9"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=571a9ab52d8413107f443e0635e2e1f9"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=571a9ab52d8413107f443e0635e2e1f9^sys_idNOT INd31a9ab52d8413107f443e0635e2e1fc"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>571a9ab52d8413107f443e0635e2e1f9</id>
+        <name>CAP 5.1 Notify on Dangerous Temperature</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 07:06:09</sys_created_on>
+        <sys_id>d31a9ab52d8413107f443e0635e2e1fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 07:06:09</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=d31a9ab52d8413107f443e0635e2e1fc"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=571a9ab52d8413107f443e0635e2e1f9^sys_idNOT IN199ad6f52d8413107f443e0635e2e173,559ad6f52d8413107f443e0635e2e168,cd9ad6f52d8413107f443e0635e2e11d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="CAP 5.1 Notify on Dangerous Temperature">571a9ab52d8413107f443e0635e2e1f9</model>
+        <model_id>571a9ab52d8413107f443e0635e2e1f9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_571a9ab52d8413107f443e0635e2e1f9</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 07:08:12</sys_created_on>
+        <sys_id>199ad6f52d8413107f443e0635e2e173</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Capstone Project">8c944555118413107f44de7e474b73fb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 07:08:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=199ad6f52d8413107f443e0635e2e173"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="CAP 5.1 Notify on Dangerous Temperature">571a9ab52d8413107f443e0635e2e1f9</model>
+        <model_id>571a9ab52d8413107f443e0635e2e1f9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_571a9ab52d8413107f443e0635e2e1f9</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 07:08:12</sys_created_on>
+        <sys_id>559ad6f52d8413107f443e0635e2e168</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Capstone Project">8c944555118413107f44de7e474b73fb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 07:13:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=559ad6f52d8413107f443e0635e2e168"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="CAP 5.1 Notify on Dangerous Temperature">571a9ab52d8413107f443e0635e2e1f9</model>
+        <model_id>571a9ab52d8413107f443e0635e2e1f9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_571a9ab52d8413107f443e0635e2e1f9</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 07:08:11</sys_created_on>
+        <sys_id>cd9ad6f52d8413107f443e0635e2e11d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Capstone Project">8c944555118413107f44de7e474b73fb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 07:13:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cd9ad6f52d8413107f443e0635e2e11d"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=571a9ab52d8413107f443e0635e2e1f9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=571a9ab52d8413107f443e0635e2e1f9"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=571a9ab52d8413107f443e0635e2e1f9^sys_idNOT INb49ad6f92d4413107f443e0635e2e1b4"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="CAP 5.1 Notify on Dangerous Temperature">571a9ab52d8413107f443e0635e2e1f9</flow>
+        <generation_source/>
+        <name>Created or Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 07:08:10</sys_created_on>
+        <sys_id>b49ad6f92d4413107f443e0635e2e1b4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 07:13:28</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=571a9ab52d8413107f443e0635e2e1f9^sys_idNOT INfebadefd2d4413107f443e0635e2e1ea"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Fire Event">80a30edeff30311077a95dac793bf19b</action_type>
+        <action_type_parent display_value="Fire Event">15e10e5eff30311077a95dac793bf11e</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="CAP 5.1 Notify on Dangerous Temperature">571a9ab52d8413107f443e0635e2e1f9</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 07:08:51</sys_created_on>
+        <sys_id>febadefd2d4413107f443e0635e2e1ea</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Capstone Project">8c944555118413107f44de7e474b73fb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 07:13:28</sys_updated_on>
+        <ui_id>75f1aa38-322f-4457-81d0-fcaca4be251a</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2WW2/bNhTHvwqhZ8uQKOrmt2JehwJbOzRp91AUAkUe2hx0K0U58YJ895G6+BLPTpAmGzbsxTBv5/r/4ejLnSO5s3ASRgMPOAgReIHve3FM05BTFqdBLvwUnJlT0RLMTdhApbN+MXM2tOjsZkwikUAQYk6IH5jngpAAvCgIAYMfYnOVy7Yp6Pbz+OI2Y7zQPGO0aXVdQebNOa1WoOquvYayAUV1p6wPtpYFV1A5iy9fZ05DlXGtQTmLuwdHettAVtAcCmP/IwgwJ8xaeGqG09sfbYpnMrZOzJ46MF8rbsPxZw7caqg4GHeCFi3MnJJWnOpabZ2FVp3ZUED5h6rY7m6spXG1cJbQSgUcXW1bDSXqI0B6TTVq13VXcJQDEvaGY43etvIPE0WAZweBLJx22w6xKljJ1tbo4DwbGzDlhz72l0yZZV31Za4lgw9Nv1w4NlWaF+fMsrroyur9UCDbXRC0K/TUXbPTtcYlNLYeNsMxXXG1rm92vXkrq75042FRM1rsVlRrJfNOQ2tb3clrU/mf/6K7UEBpoytp08hqlTWq3sjerImynK8Ks5iLor4x4bRyVc0pszkauWk6f2v2l/32Z6qkTfgXY6ZPcfD4oNed/FTJbx28s5IC8ALgsXBjSohLSJi7eU4Cl3lhmlIPY+Fj577vQfats6kNpRqLkg2FNhdapmSj35i4NjDmfz8byWTeJd1SstepAmakeEDl3d0PRm/ayKpW6FPD7d/Mn7NOmXT0/f0plc/GbVmzznYBvVtOwD0h8D2sY+QPMxlp46P1TPI9b/glePvJqmNwj+r8d2AaCVWXBj1AMEDYU3CBujOQXUTqOQQNCb0QQMf9enWEjht4BJHwGQ19HLg4iJlLUpa4CQHzY1DCJE0YZtGjEA11fYykixOAxnv9TT3fnB1W2Y0Baw0qsyU45ei34RQth9PnMXVto0Dvh7nz1AyOHp9mNALVL6eRNvIUXOZp3DkBasdF4v0zXLzsZDkq+qtzcdSHIyxSTIiIksTNMeUuSSJiZouXuLFPPGwkgIMw+O7ZwpOLesr3+jGaLf0DIl5wdFyZZlSrSeJPCGl6+OvkAPmngY5Cbyfjo8jJ80Q+To031Rb1FRg+zRS0dbGBFukaUbRzdUCE959gYtehV+dhV8MjFqLQSz0PC5dHCbjEF9ilfpq4GAe5zyNGcJR+PwvkovDEscTw38LC4yGdsoBPAz3DQvg/C/8+FgSJSMDi2CVGGeZzKTFzIYbQDUIuYsJjFiX+s1n4+if9AgtODxAAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=febadefd2d4413107f443e0635e2e1ea"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=571a9ab52d8413107f443e0635e2e1f9"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=571a9ab52d8413107f443e0635e2e1f9"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=571a9ab52d8413107f443e0635e2e1f9"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=571a9ab52d8413107f443e0635e2e1f9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_571a9ab52d8413107f443e0635e2e1f9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 07:08:12</sys_created_on>
+        <sys_id>199ad6f52d8413107f443e0635e2e149</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Capstone Project" source="x_cdltd_capstone_0">8c944555118413107f44de7e474b73fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Capstone Project">8c944555118413107f44de7e474b73fb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 07:08:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_571a9ab52d8413107f443e0635e2e1f9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 07:08:12</sys_created_on>
+        <sys_id>9d9ad6f52d8413107f443e0635e2e16e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Capstone Project" source="x_cdltd_capstone_0">8c944555118413107f44de7e474b73fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Capstone Project">8c944555118413107f44de7e474b73fb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 07:08:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_571a9ab52d8413107f443e0635e2e1f9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 07:08:12</sys_created_on>
+        <sys_id>9d9ad6f52d8413107f443e0635e2e17a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Capstone Project" source="x_cdltd_capstone_0">8c944555118413107f44de7e474b73fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Capstone Project">8c944555118413107f44de7e474b73fb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 07:08:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_571a9ab52d8413107f443e0635e2e1f9"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_571a9ab52d8413107f443e0635e2e1f9"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=571a9ab52d8413107f443e0635e2e1f9"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=571a9ab52d8413107f443e0635e2e1f9"/>
+</record_update>

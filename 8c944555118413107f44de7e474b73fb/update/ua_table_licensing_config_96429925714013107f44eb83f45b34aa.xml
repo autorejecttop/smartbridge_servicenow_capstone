@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_cdltd_capstone_0_weather_data</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-20 07:13:51</sys_created_on>
+        <sys_id>96429925714013107f44eb83f45b34aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_capstone_0_weather_data</sys_name>
+        <sys_package display_value="Capstone Project" source="x_cdltd_capstone_0">8c944555118413107f44de7e474b73fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Capstone Project">8c944555118413107f44de7e474b73fb</sys_scope>
+        <sys_update_name>ua_table_licensing_config_96429925714013107f44eb83f45b34aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-20 07:13:51</sys_updated_on>
+    </ua_table_licensing_config>
+</record_update>

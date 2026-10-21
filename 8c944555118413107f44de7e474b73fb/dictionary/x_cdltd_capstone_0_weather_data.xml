@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="819159e1714013107f44eb83f45b3411" label="Weather Data" max_length="40" name="x_cdltd_capstone_0_weather_data" type="collection">
+        <element label="Wind Speed" max_length="40" name="wind_speed" type="float"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Observed At" max_length="40" name="observed_at" type="glide_date_time"/>
+        <element label="Condition" max_length="40" name="condition" type="string"/>
+        <element label="Temperature (C)" max_length="40" name="temperature_c" type="float"/>
+        <element label="Humidity" max_length="40" name="humidity" type="integer"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+    </element>
+</database>

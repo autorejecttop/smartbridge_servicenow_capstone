@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_run_end/>
+        <entered_run_start/>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <max_drift/>
+        <name>CAP 4.1 Weather Data Retrieval</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <repeat_every/>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_daysofweek/>
+        <run_end/>
+        <run_month>1</run_month>
+        <run_period>1970-01-01 00:15:00</run_period>
+        <run_start>2026-10-20 06:55:21</run_start>
+        <run_time>1970-01-01 00:00:00</run_time>
+        <run_type>periodically</run_type>
+        <run_weekinmonth>1</run_weekinmonth>
+        <script><![CDATA[try {
+    var r = new sn_ws.RESTMessageV2('x_cdltd_capstone_0.CAP 2.1 Rest Message', 'Default GET');
+    r.setStringParameterNoEscape('location', 'Seattle');
+
+    var companyGR = new GlideRecord('core_company');
+    // ACME Australia
+    companyGR.get('df7d53303710200044e0bfc8bcbe5dac');
+    var city = companyGR.city;
+
+    gs.info('CAP 4.1: Fetching weather data for ' + city);
+
+    var response = r.execute();
+    var responseBody = JSON.parse(response.getBody());
+    var httpStatus = response.getStatusCode();
+
+    if (httpStatus == 200) {
+        gs.info('CAP 4.1: Fetching weather data successful');
+
+        var weatherDataGR = new GlideRecord('x_cdltd_capstone_0_weather_data');
+
+		var gdt = new GlideDateTime();
+		gdt.setNumericValue(responseBody.current.last_updated_epoch * 1000);
+
+        weatherDataGR.initialize();
+		weatherDataGR.observed_at = gdt;
+		weatherDataGR.city = responseBody.location.name;
+		weatherDataGR.condition = responseBody.current.condition.text;
+		weatherDataGR.humidity = responseBody.current.humidity;
+		weatherDataGR.temperature_c = responseBody.current.temp_c;
+		weatherDataGR.wind_speed = responseBody.current.wind_kph;
+		weatherDataGR.insert();
+
+		gs.info('CAP 4.1: Inserting weather data successful');
+    }
+} catch (ex) {
+    var message = ex.message;
+	gs.info('CAP 4.1: Error: ' + message);
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-20 07:08:02</sys_created_on>
+        <sys_id>1f0ec92d710013107f44eb83f45b3411</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>CAP 4.1 Weather Data Retrieval</sys_name>
+        <sys_package display_value="Capstone Project" source="x_cdltd_capstone_0">8c944555118413107f44de7e474b73fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Capstone Project">8c944555118413107f44de7e474b73fb</sys_scope>
+        <sys_update_name>sysauto_script_1f0ec92d710013107f44eb83f45b3411</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-20 07:24:08</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access>1</caller_access>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <filter_extension/>
+        <is_data_interface>false</is_data_interface>
+        <is_df_table>false</is_df_table>
+        <is_extendable>false</is_extendable>
+        <label>Weather Data</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_cdltd_capstone_0_weather_data</name>
+        <number_ref display_value="WEA">96429925714013107f44eb83f45b34b2</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-20 07:13:47</sys_created_on>
+        <sys_id>819159e1714013107f44eb83f45b3411</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Weather Data</sys_name>
+        <sys_package display_value="Capstone Project" source="x_cdltd_capstone_0">8c944555118413107f44de7e474b73fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Capstone Project">8c944555118413107f44de7e474b73fb</sys_scope>
+        <sys_update_name>sys_db_object_819159e1714013107f44eb83f45b3411</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-20 07:13:51</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_cdltd_capstone_0.user" name="x_cdltd_capstone_0.user">d8948555118413107f44de7e474b734e</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

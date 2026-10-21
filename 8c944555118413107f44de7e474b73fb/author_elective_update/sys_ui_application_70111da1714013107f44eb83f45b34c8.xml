@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Weather</name>
+        <order/>
+        <roles/>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-20 07:08:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>70111da1714013107f44eb83f45b34c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Weather</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Capstone Project" source="x_cdltd_capstone_0">8c944555118413107f44de7e474b73fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Capstone Project">8c944555118413107f44de7e474b73fb</sys_scope>
+        <sys_update_name>sys_ui_application_70111da1714013107f44eb83f45b34c8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-20 07:08:48</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Capstone Project">8c944555118413107f44de7e474b73fb</application>
+        <file_path/>
+        <instance_id>7e63141dc3ccdfd037d0b1deb0013161</instance_id>
+        <instance_name>nowlearning-nlinst04790368-7lpmj-0001</instance_name>
+        <name>sys_ui_application_70111da1714013107f44eb83f45b34c8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Weather</name><order/><roles/><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-20 07:08:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>70111da1714013107f44eb83f45b34c8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Weather</sys_name><sys_overrides/><sys_package display_value="Capstone Project" source="x_cdltd_capstone_0">8c944555118413107f44de7e474b73fb</sys_package><sys_policy/><sys_scope display_value="Capstone Project">8c944555118413107f44de7e474b73fb</sys_scope><sys_update_name>sys_ui_application_70111da1714013107f44eb83f45b34c8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-20 07:08:48</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>416005657</payload_hash>
+        <record_name>Weather</record_name>
+        <reverted_from/>
+        <source>44948555118413107f44de7e474b7301</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-20 07:08:48</sys_created_on>
+        <sys_id>2c215da1714013107f44eb83f45b34e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a158242f650000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-20 07:08:48</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>a0211da1ba40131041d980f11a475bd4</update_guid>
+        <update_guid_history>a0211da1ba40131041d980f11a475bd4:416005657</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-20 07:12:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>9dcff561f08247e5ad323e9dfed9f331</sys_id>
+        <sys_metadata>70111da1714013107f44eb83f45b34c8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Weather</sys_name>
+        <sys_package display_value="Capstone Project" source="x_cdltd_capstone_0">8c944555118413107f44de7e474b73fb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Capstone Project">8c944555118413107f44de7e474b73fb</sys_scope>
+        <sys_scope_delete display_value="">e8252a4a0db847c0ab6524f96ab11000</sys_scope_delete>
+        <sys_update_name>sys_ui_application_70111da1714013107f44eb83f45b34c8</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_70111da1714013107f44eb83f45b34c8">2c215da1714013107f44eb83f45b34e6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-20 07:12:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
