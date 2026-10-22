@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>true</can_share>
+        <can_write>true</can_write>
+        <dashboard display_value="Weather Data Dashboard">b53e567d2d8413107f443e0635e2e1dd</dashboard>
+        <group/>
+        <owner>true</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 07:24:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f53e567d2d8413107f443e0635e2e1e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b53e567d2d8413107f443e0635e2e1dd</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Capstone Project" source="x_cdltd_capstone_0">8c944555118413107f44de7e474b73fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Capstone Project">8c944555118413107f44de7e474b73fb</sys_scope>
+        <sys_update_name>par_dashboard_permission_f53e567d2d8413107f443e0635e2e1e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 07:24:04</sys_updated_on>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+    </par_dashboard_permission>
+</record_update>
